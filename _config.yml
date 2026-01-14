@@ -2,7 +2,7 @@ description: tester for blog
 markdown: kramdown 
 permalink: /:title/
 url: "https://davidaddisondavid.github.io/git_practice/"
-baseurl: ""
+baseurl: "/git_practice"
 
 
 
