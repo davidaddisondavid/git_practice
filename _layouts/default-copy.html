@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title> <!--Title set to whatever is specified in front matter-->
+    <link rel="stylesheet" href="{{ '/resources/css/style.css' | relative_url }}"><!--Links to css stylesheet-->
+<body>
+    <div class="content">
+        {{content}} <!--Adds in whatever content is in the file which is using this default layout-->
+    </div>
+</body>
+</html>
