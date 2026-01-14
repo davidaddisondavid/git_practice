@@ -1,5 +1,7 @@
 description: tester for blog
-markdown: kramdown
+markdown: kramdown 
+url: "https://davidaddisondavid.github.io/git_practice/"
+baseurl: ""
 
 
 
